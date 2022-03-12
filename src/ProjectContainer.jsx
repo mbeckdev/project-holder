@@ -10,18 +10,19 @@ const projectList = [
   {
     name: 'little shop',
     imgURL: imgCoolMemoryGame,
-    description: 'shop shop shop shop',
+    description:
+      'shop shop shop shop asdf alsdkfj alsdfj alksdfj lajd sfasdflkj asldfjk ',
     tech: ['html', 'css', 'react'],
   },
   {
     name: 'little shop2',
-    imgURL: imgCoolMemoryGame,
-    description: 'shop2 shop2 shop2 shop',
+    imgURL: imgAnnoyingButtonGame,
+    description: 'shop2 shop2 shop2 shop Lorem ipsum stuff',
     tech: ['html', 'css', 'react'],
   },
   {
     name: 'little shop',
-    imgURL: imgCoolMemoryGame,
+    imgURL: imgEZResumeBuilder,
     description: 'shop shop shop shop',
     tech: ['html', 'css', 'react'],
   },

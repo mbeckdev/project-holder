@@ -5,8 +5,16 @@ function Project({ project }) {
   return (
     <div className="project">
       <div className="project__title">{project.name}</div>
-
-      <img className="project__img" src={project.imgURL} />
+      <div className="project__tech-container">
+        <div className="project__tech">html</div>
+        <div className="project__tech">html</div>
+        <div className="project__tech">html</div>
+      </div>
+      <img
+        className="project__img"
+        alt={project.description}
+        src={project.imgURL}
+      />
     </div>
   );
 }

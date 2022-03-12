@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   max-width: 320px;
 }
 
@@ -19,5 +19,11 @@
 @media only screen and (min-width: 1000px) {
   .project-container {
     max-width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .project-container {
+    max-width: 1500px;
   }
 }
