@@ -1,4 +1,5 @@
 import './App.css';
+import ProjectContainer from './ProjectContainer';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
         <h1>mbeckdev Projects</h1>
       </header>
       <main>
-        <div>proj1</div>
+        <ProjectContainer />
       </main>
     </div>
   );

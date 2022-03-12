@@ -1,0 +1,9 @@
+.project {
+  border: 1px solid red;
+
+  width: 320px;
+  height: 200px;
+}
+.project__img {
+  background-color: blue;
+}
