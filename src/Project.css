@@ -4,6 +4,9 @@
   width: 320px;
   height: 200px;
 }
+
 .project__img {
-  background-color: blue;
+  background-image: cover;
+  width: 320px;
+  height: 160px;
 }
