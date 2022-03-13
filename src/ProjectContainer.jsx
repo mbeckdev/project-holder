@@ -18,7 +18,7 @@ const projectList = [
     name: 'little shop2',
     imgURL: imgAnnoyingButtonGame,
     description: 'shop2 shop2 shop2 shop Lorem ipsum stuff',
-    tech: ['html', 'css', 'react'],
+    tech: ['html', 'css'],
   },
   {
     name: 'little shop',
