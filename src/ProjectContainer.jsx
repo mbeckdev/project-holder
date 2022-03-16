@@ -5,6 +5,7 @@ import Project from './Project';
 import imgCoolMemoryGame from './assets/a-cool-memory-game1280x640.png';
 import imgAnnoyingButtonGame from './assets/annoying-button-game1280x640.png';
 import imgEZResumeBuilder from './assets/EZ-Resume-Builder1280x640.png';
+import imgAdventCalendar from './assets/advent-calendar.png';
 
 const projectList = [
   {
@@ -28,7 +29,7 @@ const projectList = [
   },
   {
     name: 'little shop2',
-    imgURL: imgCoolMemoryGame,
+    imgURL: imgAdventCalendar,
     description: 'shop2 shop2 shop2 shop',
     tech: ['html', 'css', 'react'],
   },
