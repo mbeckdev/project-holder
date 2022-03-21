@@ -4,34 +4,29 @@ import Project from './Project';
 
 import imgCoolMemoryGame from './assets/a-cool-memory-game1280x640.png';
 import imgAnnoyingButtonGame from './assets/annoying-button-game1280x640.png';
-import imgEZResumeBuilder from './assets/EZ-Resume-Builder1280x640.png';
 import imgAdventCalendar from './assets/advent-calendar.png';
+import imgAprilFools from './assets/april-fools-21.png';
+import imgEZResumeBuilder from './assets/EZ-Resume-Builder1280x640.png';
 
 const projectList = [
   {
-    name: 'little shop',
+    name: 'Memory Game',
     imgURL: imgCoolMemoryGame,
     description:
-      'shop shop shop shop asdf alsdkfj alsdfj alksdfj lajd sfasdflkj asldfjk ',
-    tech: ['html', 'css', 'react'],
+      'A memory game where the cards get shuffled every time. Made with React hooks.',
+    tech: ['react', 'javascript', 'html', 'css'],
   },
   {
-    name: 'advent calendar',
+    name: 'Advent Calendar',
     imgURL: imgAdventCalendar,
-    description: 'shop2 shop2 shop2 shop',
-    tech: ['html', 'css', 'react'],
+    description: 'An advent calendar of silly website links.',
+    tech: ['react', 'javascript', 'html', 'css'],
   },
   {
-    name: 'little shop2',
+    name: 'Annoying Button Game',
     imgURL: imgAnnoyingButtonGame,
-    description: 'shop2 shop2 shop2 shop Lorem ipsum stuff',
-    tech: ['html', 'css'],
-  },
-  {
-    name: 'little shop',
-    imgURL: imgEZResumeBuilder,
-    description: 'shop shop shop shop',
-    tech: ['html', 'css', 'react'],
+    description: 'Terrible puns about april fools.',
+    tech: ['html', 'css', 'javascript'],
   },
   {
     name: 'little shop',
