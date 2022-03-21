@@ -16,6 +16,12 @@ const projectList = [
     tech: ['html', 'css', 'react'],
   },
   {
+    name: 'advent calendar',
+    imgURL: imgAdventCalendar,
+    description: 'shop2 shop2 shop2 shop',
+    tech: ['html', 'css', 'react'],
+  },
+  {
     name: 'little shop2',
     imgURL: imgAnnoyingButtonGame,
     description: 'shop2 shop2 shop2 shop Lorem ipsum stuff',
@@ -25,12 +31,6 @@ const projectList = [
     name: 'little shop',
     imgURL: imgEZResumeBuilder,
     description: 'shop shop shop shop',
-    tech: ['html', 'css', 'react'],
-  },
-  {
-    name: 'little shop2',
-    imgURL: imgAdventCalendar,
-    description: 'shop2 shop2 shop2 shop',
     tech: ['html', 'css', 'react'],
   },
   {
