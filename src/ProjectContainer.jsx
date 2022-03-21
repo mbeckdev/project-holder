@@ -14,13 +14,13 @@ const projectList = [
     imgURL: imgCoolMemoryGame,
     description:
       'A memory game where the cards get shuffled every time. Made with React hooks.',
-    tech: ['react', 'javascript', 'html', 'css'],
+    tech: ['react', 'javascript', 'html', 'css', 'lol'],
   },
   {
     name: 'Advent Calendar',
     imgURL: imgAdventCalendar,
     description: 'An advent calendar of silly website links.',
-    tech: ['react', 'javascript', 'html', 'css'],
+    tech: ['git', 'sass', 'react', 'javascript', 'html', 'css'],
   },
   {
     name: 'Annoying Button Game',
@@ -49,7 +49,7 @@ function ProjectContainer() {
       <div>proj2</div>
 
       {projectList.map((item) => (
-        <Project project={item} />
+        <Project key={item.name} project={item} />
       ))}
     </div>
   );

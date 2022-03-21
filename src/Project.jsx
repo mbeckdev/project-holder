@@ -24,6 +24,22 @@ function getFAName(simpleTechName) {
       return 'html5';
     case 'react':
       return 'react';
+    case 'javascript':
+      return 'js';
+    case 'sass':
+      return 'sass';
+    case 'git':
+      return 'git';
+    case 'd3':
+      return 'd3';
+    // case 'styled-components':
+    //   return 'sc';
+    // case 'webpack':
+    //   return 'webpack';
+    // case 'd3':
+    //   return 'd3';
+    default:
+      return 'twitter';
   }
 }
 
@@ -33,14 +49,21 @@ function Project({ project }) {
       <div className="project__title">{project.name}</div>
       <div className="project__tech-container">
         {project.tech.map((item) => (
-          <FontAwesomeIcon icon={['fab', getFAName(item)]} />
+          <FontAwesomeIcon
+            key={item}
+            icon={`fa-brands fa-${getFAName(item)}`}
+            className="project__tech"
+          />
         ))}
       </div>
-      <img
-        className="project__img"
-        alt={project.description}
-        src={project.imgURL}
-      />
+      <div className="project__img-container">
+        <div className="project__haha">clickmeeeee</div>
+        <img
+          className="project__img"
+          alt={project.description}
+          src={project.imgURL}
+        />
+      </div>
     </div>
   );
 }
@@ -55,4 +78,15 @@ export default Project;
 <FontAwesomeIcon icon={['fab', 'css3']} />
 <FontAwesomeIcon icon={['fab', 'css3-alt']} />
 <FontAwesomeIcon icon={['fab', 'react']} /> */
+}
+
+{
+  /* <FontAwesomeIcon key={item} icon={['fab', getFAName(item)]} /> */
+}
+
+{
+  /* <FontAwesomeIcon key={item} icon={['fab', getFAName(item)]} /> */
+}
+{
+  /* <FontAwesomeIcon key={item} icon={faCoffee} />; */
 }

@@ -16,7 +16,8 @@
 
 .project__tech-container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
 }
 
 .project__tech {
@@ -27,4 +28,26 @@
   font-size: x-large;
   display: flex;
   justify-content: center;
+}
+
+/* ************************************** */
+/* **************  hover  *************** */
+/* ************************************** */
+.project__img-container {
+  position: relative;
+}
+.project__haha {
+  position: absolute;
+  z-index: 234;
+  background-color: red;
+  border: 1px solid red;
+
+  width: 100%;
+  height: 100%;
+
+  display: none;
+}
+.project:hover .project__haha {
+  display: block;
+  border: 1px solid green;
 }
