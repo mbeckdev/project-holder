@@ -28,6 +28,7 @@
   font-size: x-large;
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 /* ************************************** */
@@ -35,19 +36,27 @@
 /* ************************************** */
 .project__img-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.project__haha {
+.project__overlay-container--onhover {
   position: absolute;
   z-index: 234;
-  background-color: red;
-  border: 1px solid red;
+  background-color: hsla(213, 50%, 3%, 0.5);
 
   width: 100%;
-  height: 100%;
-
   display: none;
 }
-.project:hover .project__haha {
-  display: block;
-  border: 1px solid green;
+.project:hover .project__overlay-container--onhover {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project__demo-and-code-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
 }

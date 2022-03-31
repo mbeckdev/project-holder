@@ -11,9 +11,8 @@ import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fab, faCheckSquare, faCoffee);
 
-{
-  /* <FontAwesomeIcon icon={faCoffee} /> */
-}
+// <FontAwesomeIcon icon={faCoffee} />
+
 // const element = <FontAwesomeIcon icon={faCoffee} />;
 // ReactDOM.render(element, document.body)
 function getFAName(simpleTechName) {
@@ -46,18 +45,24 @@ function getFAName(simpleTechName) {
 function Project({ project }) {
   return (
     <div className="project">
-      <div className="project__title">{project.name}</div>
-      <div className="project__tech-container">
-        {project.tech.map((item) => (
-          <FontAwesomeIcon
-            key={item}
-            icon={`fa-brands fa-${getFAName(item)}`}
-            className="project__tech"
-          />
-        ))}
-      </div>
       <div className="project__img-container">
-        <div className="project__haha">clickmeeeee</div>
+        <div className="project__overlay-container--onhover">
+          {' '}
+          <div className="project__title">{project.name}</div>
+          <div className="project__tech-container">
+            {project.tech.map((item) => (
+              <FontAwesomeIcon
+                key={item}
+                icon={`fa-brands fa-${getFAName(item)}`}
+                className="project__tech"
+              />
+            ))}
+          </div>
+          <div className="project__demo-and-code-container">
+            <button>demo</button>
+            <button>code</button>
+          </div>
+        </div>
         <img
           className="project__img"
           alt={project.description}
