@@ -59,8 +59,9 @@ function Project({ project }) {
             ))}
           </div>
           <div className="project__demo-and-code-container">
-            <button>demo</button>
-            <button>code</button>
+          <a href={project.demoLink}>demo</a>
+          <a href={project.codeLink}>code</a>
+           
           </div>
         </div>
         <img
