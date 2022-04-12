@@ -3,6 +3,7 @@ import './Project.css';
 
 import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import HoverButton from './HoverButton';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -59,9 +60,8 @@ function Project({ project }) {
             ))}
           </div>
           <div className="project__demo-and-code-container">
-          <a href={project.demoLink}>demo</a>
-          <a href={project.codeLink}>code</a>
-           
+            <HoverButton link={project.demoLink} buttonText="DEMO" />
+            <HoverButton link={project.codeLink} buttonText="CODE" />
           </div>
         </div>
         <img

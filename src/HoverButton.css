@@ -1,0 +1,13 @@
+.hover-button {
+  height: 40px;
+  width: 100px;
+  color: var(--color-blue);
+  background-color: var(--bg-color);
+
+  display: flex;
+  border-radius: 1000px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+}
