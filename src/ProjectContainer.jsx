@@ -18,6 +18,7 @@ import imgToDoList from './assets/to-do-list-github.png';
 import imgMonsterRolodex from './assets/monsters-rolodex-1280x640.png';
 import imgWordChomp from './assets/word-chomp-1280x640.png';
 // import imgWordChomp from './assets/word-chomp-alt-1280x640.png';
+import imgCanvasShenanigans from './assets/canvas-shenanigans-1280x640.png';
 
 const projectList = [
   {
@@ -132,6 +133,15 @@ const projectList = [
     tech: ['html', 'css', 'javascript'],
     demoLink: 'https://mbeckdev.itch.io/word-chomp',
     codeLink: 'https://github.com/mbeckdev/spell-man',
+  },
+  {
+    name: 'Canvas Shenanigans',
+    imgURL: imgCanvasShenanigans,
+    description:
+      "What's possible in canvas? I made a few projects using canvas that could go behind a header on a site someday.",
+    tech: ['html', 'css', 'javascript'],
+    demoLink: 'https://mbeckdev.github.io/canvas-shenanigans/',
+    codeLink: 'https://github.com/mbeckdev/canvas-shenanigans',
   },
   {
     name: 'little shop2',
