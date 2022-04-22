@@ -20,6 +20,7 @@ import imgWordChomp from './assets/word-chomp-1280x640.png';
 // import imgWordChomp from './assets/word-chomp-alt-1280x640.png';
 import imgCanvasShenanigans from './assets/canvas-shenanigans-1280x640.png';
 import imgRestaurantPage from './assets/restaurant-page.png';
+import imgTicTacToe from './assets/tic-tac-toe.jpg';
 
 const projectList = [
   {
@@ -151,6 +152,14 @@ const projectList = [
     tech: ['html', 'css', 'javascript'],
     demoLink: 'https://mbeckdev.github.io/restaurant-page/',
     codeLink: 'https://github.com/mbeckdev/restaurant-page',
+  },
+  {
+    name: 'Tic-Tac-Toe',
+    imgURL: imgTicTacToe,
+    description: 'Play against a computer or human. Factory functions!',
+    tech: ['javascript', 'html', 'css'],
+    demoLink: 'https://mbeckdev.github.io/tic-tac-toe/',
+    codeLink: 'https://github.com/mbeckdev/tic-tac-toe',
   },
   {
     name: 'little shop2',
