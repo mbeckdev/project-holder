@@ -19,6 +19,7 @@ import imgMonsterRolodex from './assets/monsters-rolodex-1280x640.png';
 import imgWordChomp from './assets/word-chomp-1280x640.png';
 // import imgWordChomp from './assets/word-chomp-alt-1280x640.png';
 import imgCanvasShenanigans from './assets/canvas-shenanigans-1280x640.png';
+import imgRestaurantPage from './assets/restaurant-page.png';
 
 const projectList = [
   {
@@ -142,6 +143,14 @@ const projectList = [
     tech: ['html', 'css', 'javascript'],
     demoLink: 'https://mbeckdev.github.io/canvas-shenanigans/',
     codeLink: 'https://github.com/mbeckdev/canvas-shenanigans',
+  },
+  {
+    name: 'Kabob Restaurant',
+    imgURL: imgRestaurantPage,
+    description: 'A kabob restaurant made using webpack',
+    tech: ['html', 'css', 'javascript'],
+    demoLink: 'https://mbeckdev.github.io/restaurant-page/',
+    codeLink: 'https://github.com/mbeckdev/restaurant-page',
   },
   {
     name: 'little shop2',
