@@ -21,6 +21,7 @@ import imgWordChomp from './assets/word-chomp-1280x640.png';
 import imgCanvasShenanigans from './assets/canvas-shenanigans-1280x640.png';
 import imgRestaurantPage from './assets/restaurant-page.png';
 import imgTicTacToe from './assets/tic-tac-toe.jpg';
+import imgLibrary from './assets/library-1280x640.png';
 
 const projectList = [
   {
@@ -160,6 +161,15 @@ const projectList = [
     tech: ['javascript', 'html', 'css'],
     demoLink: 'https://mbeckdev.github.io/tic-tac-toe/',
     codeLink: 'https://github.com/mbeckdev/tic-tac-toe',
+  },
+  {
+    name: 'Library',
+    imgURL: imgLibrary,
+    description:
+      "A place to write in the books you've read and books you haven't read",
+    tech: ['javascript', 'css', 'html'],
+    demoLink: 'https://mbeckdev.github.io/library/',
+    codeLink: 'https://github.com/mbeckdev/library',
   },
   {
     name: 'little shop2',
